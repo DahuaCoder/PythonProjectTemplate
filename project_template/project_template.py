@@ -10,10 +10,6 @@ class ProjectTemplate(object):
     def __init__(self, path):
         self.start_msg = "start ..."
         self.path = path
-        self.parser = argparse.ArgumentParser()
-
-    def parse_args(self):
-        self.parser.add_argument()
 
     def start(self):
         print(self.start_msg)
